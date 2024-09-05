@@ -1,0 +1,76 @@
+# Eclipse specific files
+/.classpath
+/.project
+/.settings/
+/.target/
+/.apt_generated
+.factorypath
+.springBeans
+.sts4-cache
+
+# IntelliJ IDEA specific files
+.idea/
+*.iml
+*.iws
+out/
+
+# NetBeans specific files
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# VS Code specific files
+.vscode/
+.history/
+
+# Maven specific files
+/target/
+/pom.xml.tag
+/pom.xml.releaseBackup
+/pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+
+# STS (Spring Tool Suite) specific files
+.springBeans
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+/logs
+*.log
+
+# Temporary files
+/tmp/
+/temp/
+/*.tmp
+
+# Spring Boot specific files
+/spring-boot-devtools.properties
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# Eureka Service specific files (if applicable)
+*.local
+
+# Ignore class files
+*.class
+
+# Miscellaneous
+/hs_err_pid*
+*.orig
+
+# Additional settings for specific cases
+!**/src/main/**/target/
+!**/src/test/**/target/
+!**/src/main/**/build/
+!**/src/test/**/build/
