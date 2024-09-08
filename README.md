@@ -91,7 +91,43 @@ Update the application.properties file with your MongoDB connection details:
 ### Screenshots
 ![image](https://github.com/user-attachments/assets/4f24d810-5d38-4d1d-a910-236adf1437af)
 
+## Docker Instructions
 
+If you prefer using Docker for this service, you can pull and run the Order-MealMate image directly from Docker Hub.
+
+### Pulling the Image from Docker Hub
+
+1. To pull the image, use the following command:
+    ```bash
+    docker pull rkemon94/order-service:latest
+    ```
+
+### Running the Order Service with Docker
+
+2. Run the Order service in a Docker container:
+    ```bash
+    docker run --name order-service-container -p 9093:9093 rkemon94/order-service:latest
+    ```
+
+3. Access the service:
+
+   After running the container, you can access the API on http://localhost:9093.
+
+### Stopping and Removing the Container
+
+- To stop the running container:
+    ```bash
+    docker stop order-service-container
+    ```
+
+- To remove the container after stopping it:
+    ```bash
+    docker rm order-service-container
+    ```
+
+## Conclusion
+
+The Order service is responsible for managing all order-related functionalities in the MealMate microservices ecosystem. Running it via Docker provides a simplified way to deploy and test the service locally. Integrating it with Eureka ensures that it works seamlessly with other microservices within the project.
 
 
 
