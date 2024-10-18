@@ -99,14 +99,14 @@ If you prefer using Docker for this service, you can pull and run the Order-Meal
 
 1. To pull the image, use the following command:
     ```bash
-    docker pull rkemon94/order-service:latest
+    docker pull rkemon94/order-mealmate:latest
     ```
 
 ### Running the Order Service with Docker
 
 2. Run the Order service in a Docker container:
     ```bash
-    docker run --name order-service-container -p 9093:9093 rkemon94/order-service:latest
+    docker run --name order-service-container -p 9093:9093 rkemon94/order-mealmate:latest
     ```
 
 3. Access the service:
